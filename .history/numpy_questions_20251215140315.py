@@ -73,16 +73,8 @@ def wallis_product(n_terms):
     """
     # XXX : The n_terms is an int that corresponds to the number of
     # terms in the product. For example 10000.
+
+
+
     
-    #if n_terms =0
-    if n_terms == 0:
-        return 1
-    elif n_terms > 0:
-        product = 1.0
-        for n in range(1, n_terms + 1):
-            numerator = 2*n*2*n
-            denominator = (2*n-1)*(2*n+1)
-            product *= numerator / denominator
-        return product
-    else:
-        raise ValueError("n_terms must be a non-negative integer.")
+    return 0.

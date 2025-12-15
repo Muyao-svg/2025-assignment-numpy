@@ -81,8 +81,10 @@ def wallis_product(n_terms):
         product = 1.0
         for n in range(1, n_terms + 1):
             numerator = 2*n*2*n
-            denominator = (2*n-1)*(2*n+1)
+            denominator = 2*n
             product *= numerator / denominator
-        return product
-    else:
-        raise ValueError("n_terms must be a non-negative integer.")
+        return product * 2
+
+
+
+    return 0.

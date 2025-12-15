@@ -84,5 +84,6 @@ def wallis_product(n_terms):
             denominator = (2*n-1)*(2*n+1)
             product *= numerator / denominator
         return product
-    else:
-        raise ValueError("n_terms must be a non-negative integer.")
+
+
+    return 0.

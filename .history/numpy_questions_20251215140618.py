@@ -85,4 +85,3 @@ def wallis_product(n_terms):
             product *= numerator / denominator
         return product
     else:
-        raise ValueError("n_terms must be a non-negative integer.")
