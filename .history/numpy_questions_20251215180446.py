@@ -52,7 +52,7 @@ def max_index(X):
                     j = col
 
         return i, j
-
+        
 
 def wallis_product(n_terms):
     """Implement the Wallis product to compute an approximation of pi.
@@ -81,3 +81,4 @@ def wallis_product(n_terms):
         product *= num / den
 
     return 2.0 * product
+

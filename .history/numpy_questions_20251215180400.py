@@ -43,7 +43,7 @@ def max_index(X):
     if not isinstance(X, np.ndarray):
         raise ValueError("The input is not a numpy array.")
     elif X.ndim != 2:
-        raise ValueError("The input is not a 2D numpy array.")
+        raise ValueError("The input is not a 2D numpy array.")  
     else:
         for row in range(X.shape[0]):  # Iterate over rows
             for col in range(X.shape[1]):  # Iterate over columns
@@ -52,6 +52,7 @@ def max_index(X):
                     j = col
 
         return i, j
+
 
 
 def wallis_product(n_terms):
@@ -81,3 +82,4 @@ def wallis_product(n_terms):
         product *= num / den
 
     return 2.0 * product
+
